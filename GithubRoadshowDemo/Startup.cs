@@ -44,7 +44,8 @@ namespace GithubRoadshowDemo
 
             app.UseStaticFiles();
 
-            app.UseRouting();
+            //add ; to fix
+            app.UseRouting()
 
             app.UseEndpoints(endpoints =>
             {
